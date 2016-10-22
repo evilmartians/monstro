@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81186F521DBAEE6500D87866 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 81186F501DBAEE6500D87866 /* thumbnail.png */; };
+		81186F531DBAEE6500D87866 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81186F511DBAEE6500D87866 /* thumbnail@2x.png */; };
+		81354F6A1DBA6BA0004CBE63 /* MonstroView.h in Headers */ = {isa = PBXBuildFile; fileRef = 81354F691DBA6BA0004CBE63 /* MonstroView.h */; };
+		81354F6C1DBA6BA0004CBE63 /* MonstroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81354F6B1DBA6BA0004CBE63 /* MonstroView.m */; };
+		81354F7C1DBA7DE1004CBE63 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81354F7B1DBA7DE1004CBE63 /* WebKit.framework */; };
+		8149C99B1DBA815400E8FB9F /* head.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8149C9991DBA815400E8FB9F /* head.svg */; };
+		8149C99C1DBA815400E8FB9F /* page.html in Resources */ = {isa = PBXBuildFile; fileRef = 8149C99A1DBA815400E8FB9F /* page.html */; };
+		8149C99E1DBA815C00E8FB9F /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8149C99D1DBA815C00E8FB9F /* ScreenSaver.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81186F501DBAEE6500D87866 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		81186F511DBAEE6500D87866 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
+		81354F661DBA6BA0004CBE63 /* Monstro.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Monstro.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		81354F691DBA6BA0004CBE63 /* MonstroView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonstroView.h; sourceTree = "<group>"; };
+		81354F6B1DBA6BA0004CBE63 /* MonstroView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonstroView.m; sourceTree = "<group>"; };
+		81354F6D1DBA6BA0004CBE63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81354F7B1DBA7DE1004CBE63 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		8149C9991DBA815400E8FB9F /* head.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = head.svg; sourceTree = "<group>"; };
+		8149C99A1DBA815400E8FB9F /* page.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = page.html; sourceTree = "<group>"; };
+		8149C99D1DBA815C00E8FB9F /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81354F621DBA6BA0004CBE63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8149C99E1DBA815C00E8FB9F /* ScreenSaver.framework in Frameworks */,
+				81354F7C1DBA7DE1004CBE63 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81354F5C1DBA6BA0004CBE63 = {
+			isa = PBXGroup;
+			children = (
+				8149C9981DBA814600E8FB9F /* Resources */,
+				81354F681DBA6BA0004CBE63 /* Monstro */,
+				81354F671DBA6BA0004CBE63 /* Products */,
+				81354F7A1DBA7DE1004CBE63 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81354F671DBA6BA0004CBE63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81354F661DBA6BA0004CBE63 /* Monstro.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81354F681DBA6BA0004CBE63 /* Monstro */ = {
+			isa = PBXGroup;
+			children = (
+				81354F691DBA6BA0004CBE63 /* MonstroView.h */,
+				81354F6B1DBA6BA0004CBE63 /* MonstroView.m */,
+				81354F6D1DBA6BA0004CBE63 /* Info.plist */,
+			);
+			path = Monstro;
+			sourceTree = "<group>";
+		};
+		81354F7A1DBA7DE1004CBE63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8149C99D1DBA815C00E8FB9F /* ScreenSaver.framework */,
+				81354F7B1DBA7DE1004CBE63 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8149C9981DBA814600E8FB9F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				81186F501DBAEE6500D87866 /* thumbnail.png */,
+				81186F511DBAEE6500D87866 /* thumbnail@2x.png */,
+				8149C9991DBA815400E8FB9F /* head.svg */,
+				8149C99A1DBA815400E8FB9F /* page.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		81354F631DBA6BA0004CBE63 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81354F6A1DBA6BA0004CBE63 /* MonstroView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		81354F651DBA6BA0004CBE63 /* Monstro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81354F701DBA6BA0004CBE63 /* Build configuration list for PBXNativeTarget "Monstro" */;
+			buildPhases = (
+				81354F611DBA6BA0004CBE63 /* Sources */,
+				81354F621DBA6BA0004CBE63 /* Frameworks */,
+				81354F631DBA6BA0004CBE63 /* Headers */,
+				81354F641DBA6BA0004CBE63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Monstro;
+			productName = Monstro;
+			productReference = 81354F661DBA6BA0004CBE63 /* Monstro.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81354F5D1DBA6BA0004CBE63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Evil Martians";
+				TargetAttributes = {
+					81354F651DBA6BA0004CBE63 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 81354F601DBA6BA0004CBE63 /* Build configuration list for PBXProject "Monstro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 81354F5C1DBA6BA0004CBE63;
+			productRefGroup = 81354F671DBA6BA0004CBE63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81354F651DBA6BA0004CBE63 /* Monstro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81354F641DBA6BA0004CBE63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8149C99B1DBA815400E8FB9F /* head.svg in Resources */,
+				81186F531DBAEE6500D87866 /* thumbnail@2x.png in Resources */,
+				8149C99C1DBA815400E8FB9F /* page.html in Resources */,
+				81186F521DBAEE6500D87866 /* thumbnail.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81354F611DBA6BA0004CBE63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81354F6C1DBA6BA0004CBE63 /* MonstroView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		81354F6E1DBA6BA0004CBE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		81354F6F1DBA6BA0004CBE63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		81354F711DBA6BA0004CBE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Monstro/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.evilmartians.Monstro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		81354F721DBA6BA0004CBE63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Monstro/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.evilmartians.Monstro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81354F601DBA6BA0004CBE63 /* Build configuration list for PBXProject "Monstro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81354F6E1DBA6BA0004CBE63 /* Debug */,
+				81354F6F1DBA6BA0004CBE63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81354F701DBA6BA0004CBE63 /* Build configuration list for PBXNativeTarget "Monstro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81354F711DBA6BA0004CBE63 /* Debug */,
+				81354F721DBA6BA0004CBE63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81354F5D1DBA6BA0004CBE63 /* Project object */;
+}
