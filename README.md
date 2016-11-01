@@ -8,7 +8,7 @@ Real Evil Martian on your screen saver
 
 Based on a 404 page of [cultofmartians.com](http://cultofmartians.com/).
 
-Special thanks to [Anna Selezniova](https://github.com/askd) for initial markup and animation.
+Special thanks to [Alexander Shimanov](https://www.instagram.com/p/BEp7zLUxMfY/) for art and [Anna Selezniova](https://github.com/askd) for initial markup and animation.
 
 ## FAQ
 
